@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+## BLAH7 project description
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque viverra imperdiet bibendum. Donec ut posuere libero. Phasellus pellentesque, magna sit amet interdum condimentum, orci turpis mattis libero, nec pretium nunc mi sed augue.   
+Suspendisse nulla sapien, auctor eget commodo a, ultrices eu ex. Cras quis lacus leo. Pellentesque malesuada id elit ac vulputate. Maecenas rhoncus, elit ac pellentesque pretium, nisi libero tempor ipsum, non pellentesque purus lacus quis diam. Fusce at scelerisque odio. Mauris rutrum arcu non orci convallis, in porttitor dolor ultrices. In hac habitasse platea dictumst. Praesent vel massa et ante varius pretium. Praesent sapien velit, pretium sit amet accumsan vel, scelerisque vel erat. Donec bibendum nunc non fringilla elementum. Praesent elementum erat sed nibh porta pellentesque. Mauris sollicitudin convallis orci.  
 
-You can use the [editor on GitHub](https://github.com/coree/blah7/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Part 1
+**Test** images...  
+![test images](./img/test.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+> Integer eu suscipit orci. Ut dictum, nulla vitae egestas auctor, ipsum velit lacinia enim, ac feugiat quam dolor eu urna. Ut velit nisl, convallis id blandit euismod, tempor at massa. Duis cursus accumsan rutrum. Sed ut felis enim. Aenean efficitur mollis ante, sit amet elementum neque dictum sit amet. Quisque sit amet tortor elit. Donec aliquam pulvinar nisl, eu euismod ligula euismod nec. Fusce vel massa vitae erat eleifend sagittis at vestibulum sem.
 
-### Markdown
+*Nullam non dolor mi. Duis magna augue, vulputate nec nisl vel, congue viverra mi. Suspendisse varius placerat porttitor. Donec volutpat nibh vel justo porta, fringilla placerat lorem pulvinar. Sed cursus tortor non felis condimentum lacinia. Maecenas egestas suscipit facilisis. Ut fermentum dolor id lacinia dignissim. Nulla ut libero viverra, porttitor quam eget, faucibus ligula. Nulla non nibh facilisis, ultricies magna quis, dictum velit. Pellentesque porta nibh euismod volutpat cursus.*
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Part 2
+Test Links link to [github page](https://github.com/coree/blah7)
 
-```markdown
-Syntax highlighted code block
+Test code:
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```python
+def test():
+    return "Passed"
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Team Members
+- ....
+- ....
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/coree/blah7/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
