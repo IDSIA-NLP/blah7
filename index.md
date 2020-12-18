@@ -26,6 +26,12 @@ More specifically, we have processed two corpora derivered from LitCovid:
 
 ![example of abstract annotation](./img/LitCovid-PubAnnotation.png)
 
+## Tasks
+
+- use OGER to process new papers
+- use the annotations to find evidence in support of drugs for the treatment of COVID-19
+- classification clinical repository CCG/UNAM. Do the entities help improve classification?
+
 
 ## Team Members
 - Nico Colic
