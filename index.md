@@ -26,18 +26,6 @@ More specifically, we have processed two corpora derivered from LitCovid:
 
 ![example of abstract annotation](./img/LitCovid-PubAnnotation.png)
 
-### Part 1
-**Test** images...  
-
-### Part 2
-Test Links link to [github page](https://github.com/coree/blah7)
-
-Test code:
-
-```python
-def test():
-    return "Passed"
-```
 
 ## Team Members
 - ....
