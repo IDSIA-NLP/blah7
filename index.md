@@ -21,7 +21,7 @@ Our current annotation pipeline generates annotations for several entity types:
 
 ### Part 1
 **Test** images...  
-![test images](./img/test.png)
+![example of abstract annotation](./img/LitCovid-PubAnnotation.png)
 
 
 
