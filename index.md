@@ -18,12 +18,16 @@ Our current annotation pipeline generates annotations for several entity types:
 - organisms
 - proteins
 
+More specifically, we have processed two corpora derivered from LitCovid:
+
+- [The LitCovid abstracts](https://covid19.nlp.idsia.ch/litcovid-oger-bb.html) (same as provided by LitCovid)
+- [The LitCovid full texts](https://covid19.nlp.idsia.ch/litcovidPMC-oger-bb.html) (the full text papers of LitCovid abtracts, for the papers where the full text is contained in PubMed Central)
+
+
+![example of abstract annotation](./img/LitCovid-PubAnnotation.png)
 
 ### Part 1
 **Test** images...  
-![example of abstract annotation](./img/LitCovid-PubAnnotation.png)
-
-
 
 ### Part 2
 Test Links link to [github page](https://github.com/coree/blah7)
