@@ -1,6 +1,6 @@
 ## BLAH7 project description
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque viverra imperdiet bibendum. Donec ut posuere libero. Phasellus pellentesque, magna sit amet interdum condimentum, orci turpis mattis libero, nec pretium nunc mi sed augue.   
-Suspendisse nulla sapien, auctor eget commodo a, ultrices eu ex. Cras quis lacus leo. Pellentesque malesuada id elit ac vulputate. Maecenas rhoncus, elit ac pellentesque pretium, nisi libero tempor ipsum, non pellentesque purus lacus quis diam. Fusce at scelerisque odio. Mauris rutrum arcu non orci convallis, in porttitor dolor ultrices. In hac habitasse platea dictumst. Praesent vel massa et ante varius pretium. Praesent sapien velit, pretium sit amet accumsan vel, scelerisque vel erat. Donec bibendum nunc non fringilla elementum. Praesent elementum erat sed nibh porta pellentesque. Mauris sollicitudin convallis orci.  
+
+The goal of this project is to enable the analysis of COVID-19 related scientific literature by enriching it with domain specific entities.
 
 ### Part 1
 **Test** images...  
