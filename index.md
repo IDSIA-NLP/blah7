@@ -28,7 +28,10 @@ More specifically, we have processed two corpora derivered from LitCovid:
 
 
 ## Team Members
-- ....
-- ....
+- Nico Colic
+- Joseph Cornelius
+- Oscar Lithgow
+- Fabio Rinaldi
+
 
 
