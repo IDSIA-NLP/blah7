@@ -1,3 +1,5 @@
+**Table of content:**
+
 - [BLAH7 project description](#blah7-project-description)
 - [Tasks](#tasks)
   - [Subtask 1: Application of OGER to novel papers](#subtask-1-application-of-oger-to-novel-papers)
