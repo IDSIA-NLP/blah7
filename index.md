@@ -1,3 +1,21 @@
+- [BLAH7 project description](#blah7-project-description)
+- [Tasks](#tasks)
+  - [Subtask 1: Application of OGER to novel papers](#subtask-1-application-of-oger-to-novel-papers)
+    - [Introduction to OGER](#introduction-to-oger)
+    - [1. Check dictionary availability](#1-check-dictionary-availability)
+    - [2. Request the annotation](#2-request-the-annotation)
+  - [Subtask 3: Document classification](#subtask-3-document-classification)
+    - [Aim](#aim)
+    - [Classification scheme:](#classification-scheme)
+      - [Clinical specialities](#clinical-specialities)
+      - [Types](#types)
+      - [Topics-and-SubTopics](#topics-and-subtopics)
+      - [Subtopics](#subtopics)
+    - [About the data](#about-the-data)
+      - [Data provided for each document](#data-provided-for-each-document)
+      - [Number of documents for each class](#number-of-documents-for-each-class)
+- [Team Members](#team-members)
+
 ## BLAH7 project description
 
 The goal of this project is to enable the analysis of COVID-19 related scientific literature by enriching it with domain specific entities.
