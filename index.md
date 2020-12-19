@@ -108,12 +108,15 @@ Text classification is one of the predominant tasks in Natural Language Processi
 #### Aim
 
 
-This assignment aims to classify COVID-19 literature following a 3-way classification scheme developed considering the PRECEPT scheme. The documents should be classified in 3 independent dimensions: clinical specialties, types, topics-and-subtopics. The later is a two-level classification, i.e, a document labelled with $topic_A$ should also be labelled with $subtopic_{A_x}$ where $x \in subtopics (topic_A)$ .
+This assignment aims to classify COVID-19 literature following a 3-way classification scheme developed considering the [PRECEPT scheme](https://pubmed.ncbi.nlm.nih.gov/29019317/). The documents should be classified in 3 independent dimensions: clinical specialties, types, topics-and-subtopics. The later is a two-level classification.
 
-**As for the majority of real-life problems the training dataset will be small --considering that for some classes there will be very few examples-- so the challenge is how to better leverage the title and abstract texts and the Named Entities identified by OGER.*
+**As for the majority of real-life problems the training dataset will be small --considering that for some classes there will be very few examples-- so the challenge is how to better leverage the title and abstract texts and the Named Entities identified by OGER.**
 
 
 #### Classification scheme:
+
+![classification_scheme](./img/blah_2021_covid-clustering.png)
+
 
 ##### Clinical specialities
 
@@ -136,7 +139,7 @@ There are 29 clinical specialties represented in the dataset: Cardiology, Surger
     
 ##### Topics-and-SubTopics
 
-The topics category was created according to the classification of the "living evidence map on COVID-19":
+The topics category was created according to the classification of the "[living evidence map on COVID-19](https://www.fhi.no/contentassets/e64790be5d3b4c4abe1f1be25fc862ce/covid-19-evidence-map-protocol-20200403.pdf)":
 
 1. **Diagnosis:** Documents related to the COVID-19 screening tests based on PCR and RT-PCR, serological tests, clinical diagnosis (by medical history, imaging, blood tests).
 2. **Prognosis:** Documents that determine the prognosis of COVID-19 disease by clinical or laboratory criteria. As well as, studies that determine the case fatality rate, complications or disability.
@@ -164,9 +167,9 @@ As for the subtopics, there are 27 different categories such as: Isolation, Anti
 
 #### About the data
 
-The collection of documents to be classified is part of a repository created by an interdisciplinary cooperation group. The sources of information were medical databases, government and institutional websites.
+The collection of documents to be classified is part of a [repository](https://covid19.ccg.unam.mx/repoinfo.html) created by an [interdisciplinary cooperation group](https://covid19.ccg.unam.mx/index.html). The sources of information were medical databases, government and institutional websites.
 
-Contrasting with the LitCovid dataset and the COVID-19 Open Research Dataset (CORD19),  the dataset here presented is not limited to scientific articles but it also includes other types of documents relevant to the health workers, e.g., *Clinical practice guides*.
+Contrasting with the [LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/) dataset and the COVID-19 Open Research Dataset ([CORD19](https://allenai.org/data/cord-19)),  the dataset here presented is not limited to scientific articles but it also includes other types of documents relevant to the health workers, e.g., *Clinical practice guides*.
 
 ##### Data provided for each document
 
