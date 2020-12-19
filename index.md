@@ -92,8 +92,7 @@ reported by January 22, 2020.'
 ```
 
 Which should yield this response:   
-![OGER response]('./img/response.png')
-
+![OGER response](./img/response.png)
 
 ----------------
 
