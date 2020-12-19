@@ -52,19 +52,19 @@ Base URL: https://pub.cl.uzh.ch/projects/ontogene/oger/
 Below there is a minimal example to perform an online annotation. (And you can find a more detailed example [here](https://covid19.nlp.idsia.ch/oger-rest.html).)
 
 #### 1. Check dictionary availability
-In this example we are not going to use the default dictionary but another one fitted for COVID19 literature. This dictionary is already available and its hexacode is 799a6414c37b2d1a.
+In this example we are using the default dictionary. This dictionary is already available and its hexacode is 509f822aaf527390.
 
 To check status and description by running:
 
 ```sh
-curl --location --request GET 'https://pub.cl.uzh.ch/projects/ontogene/oger/dict/799a6414c37b2d1a/status'
+curl --location --request GET 'https://pub.cl.uzh.ch/projects/ontogene/oger/dict/509f822aaf527390/status'
 ```
 
 Which would respond something similar to:
 ```json
 {
     "status": "ready",
-    "description": "default+COVID terminology"
+    "description": "default"
 }
 ```
 
@@ -79,9 +79,8 @@ Below there is an example of the request. In this example the uploaded data is r
 
 ```sh
 curl --location \
---request POST 'https://pub.cl.uzh.ch/projects/ontogene/oger/upload/txt/tsv' \
+--request POST 'https://pub.cl.uzh.ch/projects/ontogene/oger/upload/txt/tsv?dict=509f822aaf527390' \
 --header 'Content-Type: text/plain' \
---data 'dict=799a6414c37b2d1a'\
 --data-raw 'The initial cases of novel coronavirus (2019-nCoV)-infected 
 pneumonia (NCIP) occurred in Wuhan, Hubei Province, China, in December 2019 
 and January 2020.
@@ -93,7 +92,7 @@ reported by January 22, 2020.'
 ```
 
 Which should yield this response:   
-...  
+![OGER response]('./img/response.png')
 
 
 
