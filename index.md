@@ -133,6 +133,8 @@ Examples of statements in support/against the clinical usage of Hydroxychloroqui
 
 [32240719](https://pubmed.ncbi.nlm.nih.gov/32240719/): *No evidence of rapid antiviral clearance or clinical benefit with the combination of hydroxychloroquine and azithromycin in patients with severe COVID-19 infection.*
 
+It is suggested that the participants use OGER annotation to detect occurrences of the drugs, and then identify the sentences containing such mentions. Ideally, a process of classification should be implemented which classify such sentences as in support or against the usage of the drug.
+
 
 ### Subtask 3: Document classification
 
