@@ -116,6 +116,15 @@ Which should yield this response:
 
 ----------------
 
+### Subtask 2: Find evidence in support or against specific drugs for the treatment of COVID-19
+
+32150618: Hydroxychloroquine was found to be more potent than chloroquine to inhibit SARS-CoV-2 in vitro.
+
+32205204: Chloroquine and hydroxychloroquine have been found to be efficient on SARS-CoV-2, and reported to be efficient in Chinese COV-19 patients.
+Despite its small sample size our survey shows that hydroxychloroquine treatment is significantly associated with viral load reduction/disappearance in COVID-19 patients and its effect is reinforced by azithromycin.
+
+32240719:No evidence of rapid antiviral clearance or clinical benefit with the combination of hydroxychloroquine and azithromycin in patients with severe COVID-19 infection.
+
 
 ### Subtask 3: Document classification
 
