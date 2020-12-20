@@ -6,6 +6,7 @@
     - [Introduction to OGER](#introduction-to-oger)
     - [1. Check dictionary availability](#1-check-dictionary-availability)
     - [2. Request the annotation](#2-request-the-annotation)
+  - [Subtask 2: Find evidence in support or against specific drugs for the treatment of COVID-19]
   - [Subtask 3: Document classification](#subtask-3-document-classification)
     - [Aim](#aim)
     - [Classification scheme:](#classification-scheme)
