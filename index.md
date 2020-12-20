@@ -122,6 +122,8 @@ Which should yield this response:
 The goal of this subtask is to *find evidence in support or against specific drugs for the treatment of COVID-19*
 within the OGER-annotated LitCovid dataset (both the abstract dataset and the full text dataset can be used).
 
+The following drugs in particular will be considered: [hydroxychloroquine](https://en.wikipedia.org/wiki/Hydroxychloroquine), [remdesivir](https://en.wikipedia.org/wiki/Remdesivir), [avigan](https://en.wikipedia.org/wiki/Favipiravir).
+
 [32150618](https://pubmed.ncbi.nlm.nih.gov/32150618/): Hydroxychloroquine was found to be more potent than chloroquine to inhibit SARS-CoV-2 in vitro.
 
 [32205204](https://pubmed.ncbi.nlm.nih.gov/32205204/): Chloroquine and hydroxychloroquine have been found to be efficient on SARS-CoV-2, and reported to be efficient in Chinese COV-19 patients.
