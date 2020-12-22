@@ -67,10 +67,11 @@ This assignment aims to classify COVID-19 literature following a 3-way classific
 >[***Go to Subtask 3***](task3.md)
 
 ## Team Members
-- Nico Colic
-- Joseph Cornelius
-- Oscar Lithgow
-- Fabio Rinaldi
+- [Nico Colic](https://cs.aequivinius.ch/)
+- [Joseph Cornelius](https://nlp.idsia.ch/joseph.html)
+- [Vani Kanjirangat](https://nlp.idsia.ch/vanik.html)
+- [Oscar Lithgow](https://nlp.idsia.ch/oscar.html)
+- [Fabio Rinaldi](https://nlp.idsia.ch/fabiorinaldi.html)
 
 
 
