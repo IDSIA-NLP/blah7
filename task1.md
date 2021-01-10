@@ -6,6 +6,7 @@
   - [Introduction to OGER](#introduction-to-oger)
   - [1. Check dictionary availability](#1-check-dictionary-availability)
   - [2. Request the annotation](#2-request-the-annotation)
+- [Subtask 1: more details](#more-details)
 
 ## Subtask 1: Application of OGER to novel papers
 
