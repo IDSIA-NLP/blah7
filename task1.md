@@ -10,7 +10,10 @@
 
 ## Subtask 1: Application of OGER to novel papers
 
-In the first subtask, we plan to use OntoGene's Biomedical Entity Recogniser (OGER) to annotate novel papers. For this purpose we will use OGER's for COVID-19 dedicated API, which will allow us to obtain COVID-19 specific information in the second subtask.
+In the first subtask, we plan to use OntoGene's Biomedical Entity Recogniser (OGER) to annotate novel papers. For this purpose we will use OGER's for COVID-19 dedicated API, which will allow us to obtain COVID-19 specific information in the second subtask. We recommend to proceed as follows:
+1. try the examples below, to get a quick feeling of what you can do with OGER
+2. watch this [video](https://files.ifi.uzh.ch/cl/rinaldi/ISMB2020/ismb-609.mp4) (less than 10 minutes) to better understand what is OGER, and how to use it.
+3. consult the [https://github.com/OntoGene/OGER/wiki/REST-API](OGER REST API documentation) to learn about additional features, and test them
 
 ### Introduction to OGER
 OGER is a fast, accurate entity annotation tool, which is accessible either as a software package, or as a web service. Given text as input, it delivers annotations as output, as illustrated in the picture below.
@@ -73,8 +76,6 @@ Which should yield this response:
 ## More details
 
 You can find a more detailed example [here](https://covid19.nlp.idsia.ch/oger-rest.html).
-
-In order to better understand what is OGER, and how to use it, we recommend watching this [video](https://files.ifi.uzh.ch/cl/rinaldi/ISMB2020/ismb-609.mp4) (less than 10 minutes).
 
 ----------------
 
