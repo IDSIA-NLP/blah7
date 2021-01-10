@@ -24,7 +24,7 @@ The APIs’ information
 
 Base URL: https://pub.cl.uzh.ch/projects/ontogene/oger/
 
-Below there is a minimal example to perform an online annotation. (And you can find a more detailed example [here](https://covid19.nlp.idsia.ch/oger-rest.html).)
+Below there is a minimal example to perform an online annotation.
 
 ### 1. Check dictionary availability
 In this example we are using the default dictionary. This dictionary is already available and its hexacode is 509f822aaf527390.
@@ -68,6 +68,12 @@ reported by January 22, 2020.'
 
 Which should yield this response:   
 ![OGER response](./img/response.png)
+
+## More details
+
+You can find a more detailed example [here](https://covid19.nlp.idsia.ch/oger-rest.html).
+
+In order to better understand what is OGER, and how to use it, we recommend watching this [video](https://files.ifi.uzh.ch/cl/rinaldi/ISMB2020/ismb-609.mp4) (less than 10 minutes).
 
 ----------------
 
