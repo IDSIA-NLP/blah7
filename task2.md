@@ -40,7 +40,23 @@ It is suggested that the participants use OGER annotation to detect occurrences 
 
 `curl https://pub.cl.uzh.ch/projects/ontogene/oger/fetch/pubmed/tsv/32895599 > 32895599.tsv`
 
-(3) Examine the results. Notice that the drug has been annotated (perhaps multiple times). Notice that column 7 contains the ID of the drug, and 
+(3) Examine the results. 
+~~~~
+32895599	chemical	0	11	Favipiravir	favipiravir	CHEBI:134722	Title	S1	ChEBI	CUI-less
+32895599	chemical	0	11	Favipiravir	favipiravir	C462182	Title	S1	MeSH supp (Chemicals and Drugs)	C1138226
+32895599	chemical	0	11	Favipiravir	favipiravir	C462182	Title	S1	CTD (MESH)	C1138226
+32895599	chemical	32	41	antiviral	antiviral agent	CHEBI:22587	Title	S1	ChEBI	CUI-less
+32895599	disease	52	60	COVID-19	COVID-19	C000657245	Title	S1	MeSH supp (Diseases)	CUI-less
+~~~~
+
+- Notice that the drug has been annotated (perhaps multiple times). If the same term is present in multiple ontologies, OGER will provide an annotation line ofr each of them. 
+- Notice that the term is annotated in column 5
+- Notice that column 7 contains the ID of the drug and the ID for COVID-19. 
+- Notice that column 9 contains a sentence ID (different for every sentence of the article)
+
+You can find [here](https://covid19.nlp.idsia.ch/oger-rest.html#orgheadline8) a documentation of the fields of the tsv output format of OGER.
+
+(4) Write a simple program that identifies sentences that contain both the drug and a mention of COVID-19.
 
 
 --------------------
