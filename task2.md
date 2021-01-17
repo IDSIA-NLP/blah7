@@ -11,7 +11,10 @@
 The goal of this subtask is to **find evidence in support or against specific drugs for the treatment of COVID-19**
 within the OGER-annotated LitCovid dataset (both the abstract dataset and the full text dataset can be used).
 
-The following drugs in particular will be considered: [hydroxychloroquine](https://en.wikipedia.org/wiki/Hydroxychloroquine), [remdesivir](https://en.wikipedia.org/wiki/Remdesivir), [avigan](https://en.wikipedia.org/wiki/Favipiravir).
+The following drugs in particular will be considered: 
+- [hydroxychloroquine](https://en.wikipedia.org/wiki/Hydroxychloroquine), [RxNorm:5521](http://bioportal.bioontology.org/ontologies/RXNORM?p=classes&conceptid=5521)
+- [remdesivir](https://en.wikipedia.org/wiki/Remdesivir)
+- [avigan](https://en.wikipedia.org/wiki/Favipiravir)
 
 Examples of statements in support/against the clinical usage of Hydroxychloroquine for the treatment of COVID-19:
 
