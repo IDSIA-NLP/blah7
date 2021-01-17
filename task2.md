@@ -16,6 +16,8 @@ The following drugs in particular will be considered:
 - [remdesivir](https://en.wikipedia.org/wiki/Remdesivir) (RxNorm:2284718, MeSH:C000606551, UMLS:C4726677, CHEBI:145994)
 - [avigan](https://en.wikipedia.org/wiki/Favipiravir) (CHEBI:134722, MeSH:C462182, UMLS:C1138226)
 
+Notice that COVID-19 can be identified with [MeSH:C000657245](https://id.nlm.nih.gov/mesh/C000657245.html).
+
 Examples of statements in support/against the clinical usage of Hydroxychloroquine for the treatment of COVID-19:
 
 [32150618](https://pubmed.ncbi.nlm.nih.gov/32150618/): *Hydroxychloroquine was found to be more potent than chloroquine to inhibit SARS-CoV-2 in vitro.*
@@ -27,14 +29,18 @@ Examples of statements in support/against the clinical usage of Hydroxychloroqui
 
 It is suggested that the participants use OGER annotation to detect occurrences of the drugs, and then identify the sentences containing such mentions. Ideally, a process of classification should be implemented which classify such sentences as in support or against the usage of the drug.
 
-# How to use OGER for this task.
+## How to use OGER for this task.
 
-Identify articles in PubMed that contain the drug and COVID-19. For example: 
+(1) identify articles in PubMed that contain the drug and COVID-19. For example: 
 - [PubMed:32295814](https://pubmed.ncbi.nlm.nih.gov/32295814/) *Hydroxychloroquine and COVID-19*
 - [PubMed:32445440](https://pubmed.ncbi.nlm.nih.gov/32445440/) *Remdesivir for the Treatment of Covid-19 - Final Report*
 - [PubMed:32895599](https://pubmed.ncbi.nlm.nih.gov/32895599/) *Favipiravir: A new and emerging antiviral option in COVID-19*
 
+(2) process the articles with OGER, e.g.
 
+`curl https://pub.cl.uzh.ch/projects/ontogene/oger/fetch/pubmed/tsv/32895599 > 32895599.tsv`
+
+(3) Examine the results. Notice that the drug has been annotated (perhaps multiple times). Notice that column 7 contains the ID of the drug, and 
 
 
 --------------------
