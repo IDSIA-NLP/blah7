@@ -56,8 +56,33 @@ It is suggested that the participants use OGER annotation to detect occurrences 
 
 You can find [here](https://covid19.nlp.idsia.ch/oger-rest.html#orgheadline8) a documentation of the fields of the tsv output format of OGER.
 
-(4) Write a simple program that identifies sentences that contain both the drug and a mention of COVID-19.
+(4) Write a simple program that finds the sentence identifiers that contain both the drug and a mention of COVID-19.
 
+(5) In order to reconstruc the sentences, you will have to use a different output format for OGER. Try with the `text_tsv` format, e.g.
+
+`curl https://pub.cl.uzh.ch/projects/ontogene/oger/fetch/pubmed/text_tsv/32895599 > 32895599.all.tsv`
+
+From this format you can filter the sentences that you have identified in the previous step. You can reconstruct the sentence by taking column 5, but you will have to remove the duplicate occurrences of the term (which can be identified because they have the same offset, given by columns 3 and 4).
+
+The following example corresponds to sentence S1 of abstract 32895599.
+
+~~~~
+32895599        chemical        0       11      Favipiravir     favipiravir     CHEBI:134722    Title   S1      ChEBI   CUI-less
+32895599        chemical        0       11      Favipiravir     favipiravir     C462182 Title   S1      MeSH supp (Chemicals and Drugs) C1138226
+32895599        chemical        0       11      Favipiravir     favipiravir     C462182 Title   S1      CTD (MESH)      C1138226
+32895599                11      12      :                               S1
+32895599                13      14      A                               S1
+32895599                15      18      new                             S1
+32895599                19      22      and                             S1
+32895599                23      31      emerging                                S1
+32895599        chemical        32      41      antiviral       antiviral agent CHEBI:22587     Title   S1      ChEBI   CUI-less
+32895599                42      48      option                          S1
+32895599                49      51      in                              S1
+32895599        disease 52      60      COVID-19        COVID-19        C000657245      Title   S1      MeSH supp (Diseases)    CUI-less
+32895599                60      61      .                               S1
+~~~~
+
+Taking column 5 and removing the duplicates you can get `Favipiravir : A new and emerging antiviral option in COVID-19`
 
 --------------------
 
