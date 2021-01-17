@@ -87,10 +87,28 @@ The collection of documents to be classified is part of a [repository](https://c
 
 Contrasting with the [LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/) dataset and the COVID-19 Open Research Dataset ([CORD19](https://allenai.org/data/cord-19)),  the dataset here presented is not limited to scientific articles but it also includes other types of documents relevant to the health workers, e.g., *Clinical practice guides*.
 
-#### Data provided for each document
+#### Provided data
 
-* Title
-* Abstract
+[Download data](https://github.com/coree/blah7/blob/gh-pages/blah7_subtask3.zip)
+
+The documents' metadata and classification are provided in two files: One contains the documents data and their classifications (classes ids), and the second file has the list of all the classes referenced in the first file.
+Also, a plain-text file is provided for each document with the text extracted from the original pdf, the name of the correspondent text file of each document is listed in the column *txt_file* of the metadata file.
+
+##### Data Format
+
+**blah7_subtask3.tsv**, data is stored one-document-per-line in tsv format. The columns in the metadata tsv file are:
+* title - Document's title
+* cls_speciality  - assigned classes for the specialty category
+* cls_type - assigned classes for the type category
+* cls_topic assigned classes for the topic category
+* cls_subtopic - assigned classes for the subtopic category
+* abstract - document's abstract (not every document has it)
+* txt_file - the name of the file with the document's text 
+
+**blah7_subtask3_classes.tsv**, The columns in the class file are:
+* id - class ID, the one used in the metadata file
+* class_name - name of the class
+
 
 #### Number of documents for each class
 
