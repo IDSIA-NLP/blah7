@@ -58,7 +58,7 @@ You can find [here](https://covid19.nlp.idsia.ch/oger-rest.html#orgheadline8) a 
 
 (4) Write a simple program that finds the sentence identifiers that contain both the drug and a mention of COVID-19.
 
-(5) In order to reconstruc the sentences, you will have to use a different output format for OGER. Try with the `text_tsv` format, e.g.
+(5) In order to reconstruct the sentences, you will have to use a different output format for OGER. Try with the `text_tsv` format, e.g.
 
 `curl https://pub.cl.uzh.ch/projects/ontogene/oger/fetch/pubmed/text_tsv/32895599 > 32895599.all.tsv`
 
@@ -82,7 +82,7 @@ The following example corresponds to sentence S1 of abstract 32895599.
 32895599		60	61	.				S1		
 ~~~~
 
-Taking column 5 and removing the duplicates you can get `Favipiravir : A new and emerging antiviral option in COVID-19 .`
+Taking column 5 and removing the duplicates you can get `Favipiravir : A new and emerging antiviral option in COVID-19 .` Be careful that the output above contains several empty columns (but correctly separated by tabs). You should use an approach that can read them properly!
 
 --------------------
 
