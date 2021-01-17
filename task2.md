@@ -42,11 +42,11 @@ It is suggested that the participants use OGER annotation to detect occurrences 
 
 (3) Examine the results. 
 ~~~~
-32895599	chemical	0	11	Favipiravir	favipiravir	CHEBI:134722	Title	S1	ChEBI	CUI-less
-32895599	chemical	0	11	Favipiravir	favipiravir	C462182	Title	S1	MeSH supp (Chemicals and Drugs)	C1138226
-32895599	chemical	0	11	Favipiravir	favipiravir	C462182	Title	S1	CTD (MESH)	C1138226
-32895599	chemical	32	41	antiviral	antiviral agent	CHEBI:22587	Title	S1	ChEBI	CUI-less
-32895599	disease	52	60	COVID-19	COVID-19	C000657245	Title	S1	MeSH supp (Diseases)	CUI-less
+32895599	chemical	0	  11	Favipiravir	favipiravir	CHEBI:134722	Title	S1	ChEBI	CUI-less
+32895599	chemical	0	  11	Favipiravir	favipiravir	C462182	Title	S1	MeSH supp (Chemicals and Drugs)	C1138226
+32895599	chemical	0	  11	Favipiravir	favipiravir	C462182	Title	S1	CTD (MESH)	C1138226
+32895599	chemical 32  	41	antiviral	antiviral agent	CHEBI:22587	Title	S1	ChEBI	CUI-less
+32895599	disease	 52   60	COVID-19	COVID-19	C000657245	Title	S1	MeSH supp (Diseases)	CUI-less
 ~~~~
 
 - Notice that the drug has been annotated (perhaps multiple times). If the same term is present in multiple ontologies, OGER will provide an annotation line ofr each of them. 
@@ -67,22 +67,22 @@ From this format you can filter the sentences that you have identified in the pr
 The following example corresponds to sentence S1 of abstract 32895599.
 
 ~~~~
-32895599        chemical        0       11      Favipiravir     favipiravir     CHEBI:134722    Title   S1      ChEBI   CUI-less
-32895599        chemical        0       11      Favipiravir     favipiravir     C462182 Title   S1      MeSH supp (Chemicals and Drugs) C1138226
-32895599        chemical        0       11      Favipiravir     favipiravir     C462182 Title   S1      CTD (MESH)      C1138226
-32895599                11      12      :                               S1
-32895599                13      14      A                               S1
-32895599                15      18      new                             S1
-32895599                19      22      and                             S1
-32895599                23      31      emerging                                S1
-32895599        chemical        32      41      antiviral       antiviral agent CHEBI:22587     Title   S1      ChEBI   CUI-less
-32895599                42      48      option                          S1
-32895599                49      51      in                              S1
-32895599        disease 52      60      COVID-19        COVID-19        C000657245      Title   S1      MeSH supp (Diseases)    CUI-less
-32895599                60      61      .                               S1
+32895599	chemical	0	11	Favipiravir	favipiravir	CHEBI:134722	Title	S1	ChEBI	CUI-less
+32895599	chemical	0	11	Favipiravir	favipiravir	C462182	Title	S1	MeSH supp (Chemicals and Drugs)	C1138226
+32895599	chemical	0	11	Favipiravir	favipiravir	C462182	Title	S1	CTD (MESH)	C1138226
+32895599		11	12	:				S1		
+32895599		13	14	A				S1		
+32895599		15	18	new				S1		
+32895599		19	22	and				S1		
+32895599		23	31	emerging				S1		
+32895599	chemical	32	41	antiviral	antiviral agent	CHEBI:22587	Title	S1	ChEBI	CUI-less
+32895599		42	48	option				S1		
+32895599		49	51	in				S1		
+32895599	disease	52	60	COVID-19	COVID-19	C000657245	Title	S1	MeSH supp (Diseases)	CUI-less
+32895599		60	61	.				S1		
 ~~~~
 
-Taking column 5 and removing the duplicates you can get `Favipiravir : A new and emerging antiviral option in COVID-19`
+Taking column 5 and removing the duplicates you can get `Favipiravir : A new and emerging antiviral option in COVID-19 .`
 
 --------------------
 
