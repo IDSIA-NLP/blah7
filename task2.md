@@ -12,7 +12,7 @@ The goal of this subtask is to **find evidence in support or against specific dr
 within the OGER-annotated LitCovid dataset (both the abstract dataset and the full text dataset can be used).
 
 The following drugs in particular will be considered: 
-- [hydroxychloroquine](https://en.wikipedia.org/wiki/Hydroxychloroquine), [RxNorm:5521](http://bioportal.bioontology.org/ontologies/RXNORM?p=classes&conceptid=5521)
+- [hydroxychloroquine](https://en.wikipedia.org/wiki/Hydroxychloroquine) ([RxNorm:5521](http://bioportal.bioontology.org/ontologies/RXNORM?p=classes&conceptid=5521), [CHEBI:5801](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI%3A5801), [MeSH:D006886](https://meshb.nlm.nih.gov/record/ui?ui=D006886), [UMLS:C0020336](https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=20.01d&code=C557&ns=ncit))
 - [remdesivir](https://en.wikipedia.org/wiki/Remdesivir)
 - [avigan](https://en.wikipedia.org/wiki/Favipiravir)
 
