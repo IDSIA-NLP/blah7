@@ -92,7 +92,7 @@ FINAL NOTE: We have prepared a pre-processed set of COVID-19 related articles wh
 
 Below you will find an example that shows how steps (1)-(3)can be achieved in a few lines of Python code.
 
-```
+```python
 import pandas as pd
 import io
 import requests
