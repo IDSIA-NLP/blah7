@@ -89,7 +89,11 @@ Contrasting with the [LitCovid](https://www.ncbi.nlm.nih.gov/research/coronaviru
 
 #### Provided data
 
-[Download data](https://github.com/coree/blah7/blob/gh-pages/blah7_subtask3.zip)
+* **Classified** data. More than 600 documents classified accordingly to the described scheme. [Download data](https://github.com/coree/blah7/blob/gh-pages/blah7_subtask3.zip)
+* **No-classified** data. Please find [Download data](https://covid19.nlp.idsia.ch/BLAH7/txts.tgz) a large collection of COVID-related clinically relevant documents (47,424)  that can be used to experiment with.
+
+
+#### Classified data
 
 The documents' metadata and classification are provided in two files: One contains the documents data and their classifications (classes ids), and the second file has the list of all the classes referenced in the first file.
 Also, a plain-text file is provided for each document with the text extracted from the original pdf, the name of the correspondent text file of each document is listed in the column *txt_file* of the metadata file.
