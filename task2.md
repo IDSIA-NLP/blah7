@@ -5,6 +5,8 @@
 **Table of content:**
 
 - [Subtask 2: Find evidence in support or against specific drugs for the treatment of COVID-19](#subtask-2-find-evidence-in-support-or-against-specific-drugs-for-the-treatment-of-covid-19)
+- [How to use OGER for this task.](#how-to-use-oger-for-this-task.)
+  -[Using OGER with Python](#using-oger-with-python)
 
 ## Subtask 2: Find evidence in support or against specific drugs for the treatment of COVID-19
 
@@ -86,6 +88,25 @@ Taking column 5 and removing the duplicates you can get `Favipiravir : A new and
 
 FINAL NOTE: We have prepared a pre-processed set of COVID-19 related articles which you can find [here](https://covid19.nlp.idsia.ch/LitCovid/litcovid19.tsv.tgz). If you want to use this dataset you might skip steps (1)-(3) and jump directly to step 4.
 
+### Using OGER with Python
+
+Below you will find an example that shows how steps (1)-(3)can be achieved in a few lines of Python code.
+
+```
+import pandas as pd
+import io
+import requests
+
+# Set url to the target article.
+url = 'https://pub.cl.uzh.ch/projects/ontogene/oger/fetch/pubmed/tsv/32895599'
+
+# Process the article with OGER and get the resulting .tsv file.
+req = requests.get(url)  
+
+# Convert the resulting tsv file to a pandas DataFrame (for easier processing).
+df = pd.read_csv(io.StringIO(req.text), sep='\t')
+df.columns = [c.lower().replace(' ', '_') for c in df.columns] # Optional: rename the columns using lowercase letters and remove spaces.
+```
 
 --------------------
 
