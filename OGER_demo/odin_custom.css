@@ -1,0 +1,23 @@
+article-title { font-weight: bold; margin:20px}
+S { display: block; text-decoration: none; text-align: left; margin: 2px; }
+
+Term {padding:0px 0px 0px 0px;background-color:#ccc;border-bottom:1px solid #666;cursor:pointer}
+/* Term {background-color:grey;display:inline;padding:2px;margin-left:2px;padding-right:2px;margin-right:2px} */
+
+Term:Hover:before {content:"" attr(type) " ||| " attr(allvalues);  background-color:beige;position:absolute; top:0cm;left:0cm;border:2px solid black;padding:2px;}
+
+/* MATCHED BY: " attr(matched); */
+		   
+W:before {content:" "}
+W:after {content:" "}
+
+/* Cursur Handling*/
+W {cursor:crosshair}
+Term W {cursor:pointer}
+
+
+Term[type="chemical"]{ background-color: coral; }
+Term[type="disease"]{ background-color: pink; }
+Term[type="organism"]{ background-color: yellow; }
+Term[type="organ/tissue"]{ background-color: orange; }
+
