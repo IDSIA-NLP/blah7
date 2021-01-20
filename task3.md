@@ -89,7 +89,8 @@ Contrasting with the [LitCovid](https://www.ncbi.nlm.nih.gov/research/coronaviru
 
 #### Provided data
 
-* **Classified** data. More than 600 documents classified accordingly to the described scheme. [Download data](https://github.com/coree/blah7/blob/gh-pages/blah7_subtask3.zip)
+* **Classified** data. More than 600 documents classified accordingly to the described scheme. [Download data](https://github.com/coree/blah7/raw/gh-pages/blah7_subtask3.zip)
+
 * **No-classified** data. Please find [Download data](https://covid19.nlp.idsia.ch/BLAH7/txts.tgz) a large collection of COVID-related clinically relevant documents (47,424)  that can be used to experiment with.
 
 
