@@ -5,6 +5,7 @@
 **Table of content:**  
 - [Subtask 3: Document classification](#subtask-3-document-classification)
   - [Aim](#aim)
+  - [Preliminary experiments (notebooks)](#preliminary-experiments)
   - [Classification scheme:](#classification-scheme)
     - [Clinical specialities](#clinical-specialities)
     - [Types](#types)
@@ -29,7 +30,7 @@ This assignment aims to classify COVID-19 literature following a 3-way classific
 **As for the majority of real-life problems the training dataset will be small --considering that for some classes there will be very few examples-- so the challenge is how to better leverage the title and abstract texts and the Named Entities identified by OGER.**
 
 
-### Preliminary experiments (notebooks)
+### Preliminary experiments
 
 Here are some notebooks that can help you get started with your experiments:
 * [Classification for type-class using document-texts + OGER features](https://github.com/coree/blah7/blob/task3/task3/blah7_subtask3.ipynb)
