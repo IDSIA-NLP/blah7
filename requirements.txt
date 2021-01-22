@@ -1,0 +1,14 @@
+notebook==6.2.0
+pandas==1.2.0
+
+# install OGER as python package
+# git+https://github.com/OntoGene/OGER.git
+
+# task2 sentiment analyses
+nltk==3.5.0
+textblob==0.15.3
+flair==0.7.0
+
+# test annotation with jupyter notebook
+tortus==1.0.2
+

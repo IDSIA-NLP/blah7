@@ -1,5 +1,0 @@
-notebook==6.2.0
-pandas==1.2.0
-
-# install OGER as python package
-# git+https://github.com/OntoGene/OGER.git
